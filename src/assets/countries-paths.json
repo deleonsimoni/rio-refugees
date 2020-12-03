@@ -21,7 +21,7 @@
             "url": "https://www.tripadvisor.com.br/Restaurants-g303506-c10626-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html"
         },
         {
-            "name": "Cuba",
+            "name": "cuba",
             "flag": "../../assets/img/bandeiras/cuba.svg",
             "url": ""
         },
@@ -36,7 +36,7 @@
             "url": "https://www.tripadvisor.com.br/Restaurants-g303506-c10626-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html"
         },
         {
-            "name": "Haiti",
+            "name": "haiti",
             "flag": "../../assets/img/bandeiras/haiti.svg",
             "url": ""
         },
@@ -56,17 +56,17 @@
             "url": "https://www.tripadvisor.com.br/Restaurants-g303506-c10626-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html"
         },
         {
-            "name": "Palestina",
+            "name": "palestina",
             "flag": "../../assets/img/bandeiras/palestina.svg",
             "url": ""
         },
         {
-            "name": "Paquistão",
+            "name": "paquistao",
             "flag": "../../assets/img/bandeiras/paquistao.png",
             "url": ""
         },
         {
-            "name": "República Dominicana",
+            "name": "republicadominicana",
             "flag": "../../assets/img/bandeiras/republica-dominicana.svg",
             "url": ""
         },
