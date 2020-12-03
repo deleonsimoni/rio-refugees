@@ -1,0 +1,61 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>{{'documento' | transloco}}</ion-title>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="menu"></ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="primary">
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <app-section-information title=" {{'protocoloTitle' | transloco}}">
+                   {{'protocoloSolicitaidentidaderefugiado' | transloco}} <app-custom-link textLink="Polícia
+                    Federal" [url]="url"></app-custom-link>.
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="CTPS">
+                    {{'ctps' | transloco}}
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'registroNacionalTitle' | transloco}}">
+                    {{'rne' | transloco}}
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'naturalizaoTitle' | transloco}}">
+                    {{'naturalizacao' | transloco}}
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'residenciaPermanenteTitle' | transloco}}">
+                    {{'adquiridaAnos' | transloco}}
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col class="ion-margin-bottom">
+                <app-section-information title="{{'vistoTemporarioTitle' | transloco}}">
+                    {{'vistotemporario' | transloco}}
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

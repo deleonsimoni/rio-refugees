@@ -1,0 +1,55 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>{{'empregos' | transloco}}</ion-title>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="menu"></ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="primary">
+    <ion-grid>
+       
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'ministerioTrabalhoEmprego' | transloco}}">
+                    <app-custom-link textLink="{{'responsavelEmpregosBR' | transloco}}"
+                        url="https://www.gov.br/trabalho/pt-br"></app-custom-link>
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'escolaepornatec' | transloco}}">
+                    <app-custom-link textLink="{{'qualificacaodesemprego' | transloco}}"
+                        url="https://pronatec.pro.br/escola-do-trabalhador/"></app-custom-link>
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'outrasSugestoes' | transloco}}">
+                    <p class="content-link">
+                        <app-custom-link textLink="Trabalha Brasil" url="https://www.trabalhabrasil.com.br">
+                        </app-custom-link>
+                    </p>
+                    <p class="content-link">
+                        <app-custom-link textLink="ManpowerGroup"
+                            url="https://www.manpowergroup.com.br/wps/portal/manpowergroup/br/fale-conosco">
+                        </app-custom-link>
+                    </p>
+                    <p class="content-link">
+                        <app-custom-link textLink="Toti Diversidade" url="http://totidiversidade.com.br">
+                        </app-custom-link>
+                    </p>
+                    <p class="content-link">
+                        <app-custom-link textLink="Somamos" url="http://www.somamos.net.br"></app-custom-link>
+                    </p>
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

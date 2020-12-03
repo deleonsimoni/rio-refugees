@@ -1,0 +1,48 @@
+
+<ion-header>
+  <ion-toolbar>
+      <ion-title>{{'educacao' | transloco}}</ion-title>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="menu"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="primary">
+  <ion-grid>
+      <ion-row>
+          <ion-col>
+              <app-section-information title="{{'educacaocatedrasergiovieirademelo' | transloco}}" >
+                 
+                 <app-custom-link 
+                 textLink="https://www.acnur.org/portugues/catedra-sergio-vieira-de-mello/" [url]="'https://www.acnur.org/portugues/catedra-sergio-vieira-de-mello/'">
+                </app-custom-link>.
+              </app-section-information>
+          </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+            <app-section-information title="{{'caritasRefugiadosEscolas' | transloco}}" >               
+               <app-custom-link 
+               textLink="http://www.caritas-rj.org.br/refugiados-nas-escolas.html" [url]="'http://www.caritas-rj.org.br/refugiados-nas-escolas.html'">
+              </app-custom-link>.
+            </app-section-information>
+        </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+          <app-section-information title="{{'educacaopantheoncaxias' | transloco}}">
+             
+             <app-custom-link 
+             textLink="https://pantheon.ufrj.br/handle/11422/2255" [url]="'https://pantheon.ufrj.br/handle/11422/2255'">
+            </app-custom-link>.
+          </app-section-information>
+      </ion-col>
+  </ion-row>
+
+  
+      
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,57 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>{{'assistenciajuridia' | transloco}}</ion-title>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="menu"></ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="primary">
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'altocomissariado' | transloco}}">
+                    <app-custom-link textLink="{{'assistenciajuridicaacnur' | transloco}}" url="https://www.acnur.org/">
+                    </app-custom-link>
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'caritas' | transloco}}">
+                    <app-custom-link textLink="{{'caritasacolhimento' | transloco}}"
+                        url="http://caritas.org.br/"></app-custom-link>
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'conare' | transloco}}">
+                    <app-custom-link textLink="{{'conarecomiterefugiados' | transloco}}"
+                        url="https://www.justica.gov.br/seus-direitos/refugio/conare"></app-custom-link>
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'coordenacao' | transloco}}">
+                    <app-custom-link textLink="{{'portalimiracao' | transloco}}"
+                        url="https://portaldeimigracao.mj.gov.br/pt/informacoes-gerais"></app-custom-link>
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <app-section-information title="{{'migrantewebtitle' | transloco}}">
+                    <app-custom-link textLink="{{'migrantewebtitle' | transloco}}"
+                        url="https://portaldeimigracao.mj.gov.br/pt/migranteweb"></app-custom-link>
+                </app-section-information>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
