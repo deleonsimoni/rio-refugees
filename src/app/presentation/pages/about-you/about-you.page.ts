@@ -12,14 +12,6 @@ export class AboutYouPage implements OnInit {
 
     public nationalities = [
         {
-            id: 1,
-            name: this.translocoService.translate('brasileiro')
-        },
-        {
-            id: 2,
-            name: this.translocoService.translate('americano')
-        },
-        {
             id: 3,
             name: this.translocoService.translate('angolano')
         },
@@ -29,7 +21,15 @@ export class AboutYouPage implements OnInit {
         },
         {
             id: 5,
-            name: this.translocoService.translate('cubano')
+            name: this.translocoService.translate('haitiano')
+        },
+        {
+            id: 6,
+            name: this.translocoService.translate('congoles')
+        },
+        {
+            id: 7,
+            name: this.translocoService.translate('venezuelano')
         }
     ];
 

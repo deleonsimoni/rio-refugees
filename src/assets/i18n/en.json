@@ -102,6 +102,10 @@
     "paquistao": "Pakistan",
     "republicadominicana": "Dominican Republic",
 
+    "haitiano": "Haitian",
+    "venezuelano": "Venezuelan",
+    "congoles": "Congolese",
+
 
     "select-language": "Select the language"
 }
